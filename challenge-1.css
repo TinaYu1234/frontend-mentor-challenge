@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+.background{
+    background-color:#f3eae3;
+    display:flex;
+    height:100vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.mainbox{
+    box-sizing:border-box;
+    height:350px;
+    width:500px;
+    display:flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.leftpart{
+    background-image: url(https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/167428305/original/e6b3e96addca0c020119fdcde47dd8e0639f49b0/do-premium-product-photography.jpg);
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+.rightpart{
+   border:1px black ;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50%;
+    background-color: white;
+
+}
+
+#Preview{
+   font-family:Montserrat;
+   padding-left:20px;
+   padding-bottom: 12px;
+   padding-top: 12px;
+   font: weight 500px;
+   color:grey;
+   font-size: x-small;
+   letter-spacing: 2px;
+   text-shadow: 1px lightgray;
+
+}
+
+#productname{
+    font-family: Fraunces;
+    padding-right:17.5px;
+    padding-left: 20px;
+    font: weight 700;
+    box-align:left;
+
+
+}
+
+#details{
+    font-family:Montserrat;
+    padding-left:20px;
+    padding-top: 12px;
+    padding-bottom:12px;
+   color:grey;
+   font-size: small;
+}
+
+.price{
+    font-family: Fraunces;
+    display: flex;
+    padding-left:20px;
+    padding-bottom: 12px;
+    grid-gap: 20px;
+    color:#3d8168;
+}
+
+#hlowprice{
+    font-weight: 700;
+    flex:50%;
+    
+ 
+}
+
+#highprice{
+    color:grey;
+    display: grid;
+  
+}
+
+.btn{
+     align-items: center;
+    align-content: center;
+    background-color:#3d8168;
+    color:white;
+    padding: 14px;
+    font-size: 14px;
+    box-align:center;
+    border-radius: 10px;
+    border:1px transparent;
+    display: grid; 
+    margin: auto;
+    padding: 8px 50px;
+    display: flex;
+  flex-direction: row;
+}
+   
